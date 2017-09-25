@@ -1,0 +1,73 @@
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  background-color: white;
+}
+header{
+  background: url('css/grfx/header.jpg') no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 0 10px;
+  padding: 5px;
+}
+.under{
+  display: block;
+  margin: -5px 0 0 15px
+}
+nav{
+  position: absolute;
+  bottom: 25px;
+  left: 5px;
+}
+nav ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+   color: white;
+}
+nav a:hover{
+  color: grey;
+}
+img {
+  margin: 10px auto;
+  margin-right: 10px;
+
+  float: left;
+}
+div.absolute {
+  width: 100%;
+  height: 200px;
+  top: 255px;
+  z-index: -1;
+  position: absolute;
+  background-color: #b3d9ff;
+  margin: 0 auto;
+  float: left;
+}
+#schip {
+  padding: 0;
+  margin: 20px;
+  float: right;
+}
+#img2{
+  float: right;
+}
